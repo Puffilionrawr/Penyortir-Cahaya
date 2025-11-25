@@ -925,12 +925,12 @@
     {
       "name": "musicVolume",
       "type": "number",
-      "value": 0
+      "value": 50
     },
     {
       "name": "soundVolume",
       "type": "number",
-      "value": 0
+      "value": 50
     },
     {
       "name": "recentScore",
