@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.solu.penyortir_cahaya",
     "pixelsRounding": false,
     "projectUuid": "254657ba-b170-4195-9697-fd25e1ddf2d7",
     "scaleMode": "linear",
@@ -75,7 +75,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": false
+      "showWatermark": true
     },
     "authorIds": [],
     "authorUsernames": [],
