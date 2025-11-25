@@ -14844,26 +14844,51 @@
                         "1",
                         ""
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Sound\\Sound Effect\\Kamu Menang.mp3",
-                        "4",
-                        "",
-                        "soundVolume",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "soundButton",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\Sound Effect\\Kamu Menang.mp3",
+                            "4",
+                            "",
+                            "soundVolume",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -14913,26 +14938,51 @@
                         "1",
                         ""
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Sound\\Sound Effect\\Kamu Kalah.mp3",
-                        "4",
-                        "",
-                        "soundVolume",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "soundButton",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\Sound Effect\\Kamu Kalah.mp3",
+                            "4",
+                            "",
+                            "soundVolume",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
